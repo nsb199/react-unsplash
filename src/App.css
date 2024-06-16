@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 11px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background: #0073e6;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  height: 26px;
+  padding: 1rem;
+}
+
+
+button:hover {
+  background: #005bb5;
+}
